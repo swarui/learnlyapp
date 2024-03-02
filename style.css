@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo-img {
+  height: 70px;
+  width: 70px;
+  margin: 0;
+  padding: 0;
+  margin-top: -10px;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  font-family: Poppins;
+  margin: 0;
+}
+.navbar a {
+  text-decoration: none;
+  padding-left: 30px;
+  margin-right: 50px;
+  padding: 0;
+  color: black;
+}
+
+#downloadapp {
+  margin-right: 60px;
+  font-family: Poppins;
+  background-color: white;
+  color: blue;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-color: rgb(116, 34, 224);
+  font-weight: 500;
+  transition: all 0.3s ease; /* Add transition effect for smoother hover */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Add transition effect for smoother hover */
+
+
+}
+#downloadapp :hover{
+    transform: scale(0.95); 
+}
+.left-section {
+  display: flex;
+  margin-top: 7rem;
+  margin-left: 37px;
+}
+.left-content h1 {
+  font-size: 50px;
+  font-family: Poppins;
+}
+.left-content p {
+  font-size: 17px;
+  font-family: Poppins;
+}
+span {
+  color: rgb(116, 34, 224);
+}
+#applyforbootcamp {
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: Poppins;
+  background-color: rgb(116, 34, 224);
+  font-size: 15px;
+  border: 0px;
+  color: white;
+  font-weight: 500;
+  transition: all 0.3s ease; /* Add transition effect for smoother hover */
+
+}
+#applyforbootcamp :hover{
+    transform: scale(0.95); 
+}
+#startlearning {
+  border-radius: 5px;
+  padding: 10px 50px;
+  font-family: Poppins;
+  background-color: rgb(116, 34, 224);
+  font-size: 15px;
+  border: 0px;
+  color: white;
+  font-weight: 500;
+}
+.right-section {
+  display: flex;
+  float: right;
+}
+.svg {
+  margin: 0;
+  height: 300px;
+  margin-top: -20rem;
+  margin-right: 30px;
+}
